@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, inintal-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    </head>
+    <body>
+<header>
+<div class="container">
+
+    <nav>
+        <div class="logo"> PRAVESH GREWAL  </div>
+        <div class="menu">
+            <a href="file:///C:/Users/Administrator/Desktop/Portfolio/portfolio.html#"><i class="fa fa-home"></i>HOME</a>
+             <a href="https://praveshgrewal.github.io/Resume/" ><i class="fa fa-book"></i>RESUME</a>
+             <a href="https://wa.me/qr/CKPMT3IDM32PD1" ><i class="fa fa-phone"></i>CONTACT</a>
+             <a href="#" ><i class="fa fa-user"></i>ABOUT</a>
+
+
+        </div>
+
+
+
+    
+    </nav>
+    <div class="icon">
+       <a href='https://github.com/praveshgrewal?tab=overview&from=2022-11-01&to=2022-11-30'> <i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/pravesh-grewal-6b7322250/"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/jigergrewal/"><i class="fa fa-instagram"></i></a>
+        <a href="https://wa.me/qr/CKPMT3IDM32PD1"><i class="fa fa-whatsapp"></i></a>
+    </div>
+</header>
+<script>
+    gsap.from('nav',{duration:2, x:'-100%'});
+    gsap.from('.menu',{duration:3,delay:'2',x:'0%',opacity:0})
+    gsap.from('.icon',{duration:2,y:'100%',delay:'2'})
+    
+</script>
+
+
+    </body>
+</html>
